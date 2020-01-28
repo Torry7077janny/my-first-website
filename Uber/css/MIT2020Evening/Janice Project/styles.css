@@ -1,0 +1,22 @@
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #e8491d;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman";
+}
+#janice{
+    background-color: slategray;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.brg{
+    text-align: center;
+}

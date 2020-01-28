@@ -1,0 +1,103 @@
+/*core styles*/
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,Helvetica,sans-serif,monospace;
+    font-size:1em;
+    background-color:white;
+}
+#section-a{
+    background-color:darkred;
+    margin-top:0;
+    color: #ffffff;
+    height:50px;
+    padding-top: 20px;
+}
+header p{
+    display:inline;
+    padding-right:20px;
+}
+#section-b{
+    background-color:silver;
+    margin-top:-20px;
+    height: 60px;
+}
+#section-b #brand{
+    float: left;
+    font-weight:bold;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+#section-b #brand-name{
+    color:white;
+  }
+#links {
+    float:right;
+}
+#links ul{
+      list-style-type: none;
+}
+#links ul a{
+    text-decoration: none;
+    color: #000000;
+    padding: 8px;
+
+
+}
+#links ul li{
+    list-style-type: none;
+    display: inline;
+    text-transform:uppercase;
+}
+/*section c*/
+#section-c {
+    background-image: url("../images/img1.jpg");
+    margin-top: -19px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.5em;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#section-c.content-title{
+    text-align: center;
+}
+main{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-family: monospace;
+}
+main #section-aside{
+    width: 48%;
+    border: 1px solid red;
+    float: left;
+    box-shadow:5px 5px 5px 5px;
+}
+
+main #demo-aside{
+    width: 49%;
+    float: right;
+    background-color: #000000;
+
+}
+#section-test{
+    padding: 20px;
+    text-align: center;
+}
+
+#footer{
+    margin-top: 90px;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

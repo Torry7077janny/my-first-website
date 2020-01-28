@@ -1,0 +1,47 @@
+/*style for section b*/
+#section-b .row{
+        margin-top: 30px;
+}
+#section-b .card img{
+    width: 100%;
+    height: 200px;
+}
+#section-b.card:hover{
+    box-shadow: 3px 3px 3px 3px crimson;
+}
+/*style for section c*/
+
+#section-c #section-c-left{
+    padding: 20px;
+    font-family: "Century Schoolbook L";
+    font-weight: bold;
+    text-align: left;
+}
+#section-c #section-c-right{
+    padding-top: 20px;
+    background-image: url("../images/dish1.jpeg");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+/*signup section*/
+#signup-section fieldset, #login-section fieldset{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: "Times New Roman";
+    border: 2px coral;
+    box-shadow: 3px 3px 3px 3px lightsalmon;
+}
+#signup-section fieldset img, #login-section fieldset img{
+    /*height: 300px;*/
+    /*width: 300px;*/
+    border-radius: 50%;
+    text-align: center;
+}
+#login-section fieldset{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
